@@ -1,0 +1,31 @@
+﻿Build started 24.12.2012 8:20:58.
+     1>Project "D:\Andrews files\PROGRAMMING\Math\RectingAlgorithmProcess\RectingAlgorithmProcess\RectingAlgorithmProcess.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(47): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdlib.h(909) : see declaration of 'itoa'
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(98): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(149): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(151): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(170): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(181): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(183): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(213): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(283): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(353): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(423): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(505): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(516): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(571): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(583): warning C4101: 'ex' : unreferenced local variable
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(616): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\andrews files\programming\math\rectingalgorithmprocess\rectingalgorithmprocess\source.cpp(619): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Andrews files\PROGRAMMING\Math\RectingAlgorithmProcess\Debug\RectingAlgorithmProcess.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Andrews files\PROGRAMMING\Math\RectingAlgorithmProcess\Debug\RectingAlgorithmProcess.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Andrews files\PROGRAMMING\Math\RectingAlgorithmProcess\Debug\RectingAlgorithmProcess.lib" /MACHINE:X86 Debug\Source.obj
+         RectingAlgorithmProcess.vcxproj -> D:\Andrews files\PROGRAMMING\Math\RectingAlgorithmProcess\Debug\RectingAlgorithmProcess.exe
+     1>Done Building Project "D:\Andrews files\PROGRAMMING\Math\RectingAlgorithmProcess\RectingAlgorithmProcess\RectingAlgorithmProcess.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.90

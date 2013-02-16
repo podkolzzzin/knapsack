@@ -1,0 +1,15 @@
+D:\Andrews files\PROGRAMMING\Math\RectingFullSearch\RectingFullSearch\obj\Debug\RectingFullSearch.csprojResolveAssemblyReference.cache
+D:\Andrews files\PROGRAMMING\Math\RectingFullSearch\RectingFullSearch\obj\Debug\MainWindow.baml
+D:\Andrews files\PROGRAMMING\Math\RectingFullSearch\RectingFullSearch\obj\Debug\MainWindow.g.cs
+D:\Andrews files\PROGRAMMING\Math\RectingFullSearch\RectingFullSearch\obj\Debug\App.g.cs
+D:\Andrews files\PROGRAMMING\Math\RectingFullSearch\RectingFullSearch\obj\Debug\RectingFullSearch_MarkupCompile.cache
+D:\Andrews files\PROGRAMMING\Math\RectingFullSearch\RectingFullSearch\obj\Debug\RectingFullSearch.g.resources
+D:\Andrews files\PROGRAMMING\Math\RectingFullSearch\RectingFullSearch\obj\Debug\RectingFullSearch.Properties.Resources.resources
+D:\Andrews files\PROGRAMMING\Math\RectingFullSearch\RectingFullSearch\obj\Debug\RectingFullSearch.csproj.GenerateResource.Cache
+D:\Andrews files\PROGRAMMING\Math\RectingFullSearch\RectingFullSearch\bin\Debug\RectingFullSearch.exe
+D:\Andrews files\PROGRAMMING\Math\RectingFullSearch\RectingFullSearch\bin\Debug\RectingFullSearch.pdb
+D:\Andrews files\PROGRAMMING\Math\RectingFullSearch\RectingFullSearch\obj\Debug\RectingFullSearch.exe
+D:\Andrews files\PROGRAMMING\Math\RectingFullSearch\RectingFullSearch\obj\Debug\RectingFullSearch.pdb
+D:\Andrews files\PROGRAMMING\Math\RectingFullSearch\RectingFullSearch\obj\Debug\SolutionWindow.baml
+D:\Andrews files\PROGRAMMING\Math\RectingFullSearch\RectingFullSearch\obj\Debug\SolutionWindow.g.cs
+D:\Andrews files\PROGRAMMING\Math\RectingFullSearch\RectingFullSearch\bin\Debug\RectingFullSearch.exe.config

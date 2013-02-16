@@ -1,0 +1,8 @@
+﻿<Window x:Class="RectingFullSearch.SolutionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SolutionWindow" Height="500" Width="500">
+    <Canvas x:Name="XCanvas">
+
+    </Canvas>
+</Window>

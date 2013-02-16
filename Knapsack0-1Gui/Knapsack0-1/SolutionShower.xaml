@@ -1,0 +1,50 @@
+﻿<Window x:Class="Knapsack0_1.SolutionShower"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SolutionShower" Height="500" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="80"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock  FontSize="18" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center">Суммарный вес предметов</TextBlock>
+        <TextBlock  FontSize="18"  Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center">Общая стоимость</TextBlock>
+        <TextBlock  FontSize="18"  Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center">Суммарный вес / Размер рюкзака</TextBlock>
+        <TextBlock  FontSize="18"  Grid.Row="3"  HorizontalAlignment="Left" VerticalAlignment="Center">Количество предметов</TextBlock>
+        <TextBlock Grid.ColumnSpan="2" Grid.Row="4" FontSize="18" HorizontalAlignment="Center" FontWeight="Bold" VerticalAlignment="Center">Оптимальний набор предметов </TextBlock>
+
+        <TextBlock FontSize="18" x:Name="XTotalWeight" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+        <TextBlock FontSize="18" x:Name="XTotalPrice" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+        <TextBlock FontSize="18" x:Name="XAttitude" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+        <TextBlock FontSize="18" x:Name="XNumObjects" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+        
+        <ListView x:Name="XList" Grid.ColumnSpan="2" Grid.Row="5">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="145"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <TextBlock FontSize="18" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center" Text="{Binding SName}"></TextBlock>
+                        <TextBlock FontSize="14" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Right" Text="{Binding SPrice}"></TextBlock>
+                        <TextBlock FontSize="14" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Right"  Text="{Binding SWeight}"></TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Window>
